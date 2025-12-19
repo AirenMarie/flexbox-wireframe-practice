@@ -1,0 +1,76 @@
+@import url("./reset.css");
+
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica", Arial, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #142959;
+}
+
+div {
+  width: 320px;
+  height: 450px;
+  margin: auto;
+  background-color: #b1b5be;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  width: 75%;
+  height: 13%;
+  background-color: #9f1f63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+  border-radius: 10px;
+}
+
+section {
+  width: 75%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #26b47e;
+  border-radius: 10px;
+}
+
+article {
+  width: 90%;
+  height: 25%;
+  background-color: #e5195b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+aside {
+  width: 75%;
+  height: 13%;
+  background-color: #126395;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+  border-radius: 10px;
+}
+
+footer {
+  width: 75%;
+  height: 13%;
+  background-color: #df6b26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7em;
+  border-radius: 10px;
+}
